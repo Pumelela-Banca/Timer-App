@@ -51,9 +51,11 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.material3.adaptive.navigation.suite)
 
-    implementation("androidx.appcompat:appcompat:1.7.0")
-    implementation("anroidx.room:room-runtime:2.6.0-alpha01")
-    ksp("androidx.room:room-compiler:2.5.0")
+    // Room dependencies
+    implementation("androidx.room:room-runtime:2.6.0-alpha01")
+    implementation("androidx.room:room-ktx:2.6.0-alpha01")
+    implementation(libs.androidx.appcompat)
+    ksp("androidx.room:room-compiler:2.6.0-alpha01")
 
     implementation("androidx.rooom:room-ktx:2.6.0-alpha01")
 
