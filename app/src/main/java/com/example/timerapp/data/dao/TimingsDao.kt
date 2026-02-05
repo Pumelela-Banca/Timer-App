@@ -18,4 +18,5 @@ interface TimingsDao {
 
     @Delete
     suspend fun deleteTiming(timing: Timings)
+
 }
